@@ -1,0 +1,8 @@
+filterPrimes Function
+line 10 - Defines a function named filterPrimes that takes an array(arr) as thee input
+Filtering Prime numbers
+line 11- We use the filter method to iterate over each element(num) in the inputed array. For every element, it executes the following logic inside the filter callback function.
+Confirming for Prime
+line 12-14 - Here our code checks if the current number(num) is divisible by any digit from 2 upto its square root(Math.sqrt(num)).If the num is divisible by any digit other than 1 and itself, its not prime, so false is returned.
+Returning The Prime numbers
+Line 15 - The code in this line returns true if the number is greater than 1, indicating that it is actually a prime number.

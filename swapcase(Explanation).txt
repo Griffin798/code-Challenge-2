@@ -1,0 +1,14 @@
+Function Definition
+Line 11 - Here we are declaring a function called swapCase that accepts one parameter(inputString), which is the string whose case we want to SWAP.
+Regular Expression
+Line 12(/[a-zA-Z]/g) This is actually a simple
+ expression that matches any alphabetical character(both uppercase and lowercase). the 'g' flag is used to execute a global search, meaning that it will math all occurrences in the specified string.
+Using the replace() method
+Line 12 - The replace method is used on the inputString to replace each character that matches the regular expression with the result of the provided function.
+Replacement Function
+Line 13 - This means for each matched character this function checks if the character  is uppercase(char === char.toUpperCase()).If it is, it returns the lowercase version of the character using char.to LowerCase(), and thee vice versa.This effectively swaps the case of each character.
+Return Value
+Line 12- Baseline, this function returns a modified string with swapped cases.
+
+IN SUMMARY
+This function replaces each alphabetic character in thee input string with there counterpart of the Opposite case, effectively swapping the case of each character.

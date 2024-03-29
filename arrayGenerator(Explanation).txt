@@ -1,0 +1,8 @@
+Function Definition
+Line 11- We are Declaring a function named generateArray that accepts two parameters: Start and end, which also represents the range of numbers to generate the array between.
+Array Initialisation 
+Line 12- We are initialising an empty array named result where our generated numbers will be stored
+Looping To generate numbers
+Line 13-14 - We are iteratingthrough numbers from start to end using a for loop. For every iteration, it actually pushes the current number (i) into the result array.
+Return Value
+Line 15 - This code returns the generated array containing the numbers within the specific range.
